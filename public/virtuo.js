@@ -108,24 +108,24 @@ const VIRTUO = (() => { //eslint-disable-line
     const deductibleOption = DEDUCTIBLE_PER_DAY * days * +option;
 
     var actors = [{
-      'who': 'driver',
-      'type': 'debit',
+      'who': 'Driver',
+      'type': 'DEBIT',
       'amount': price + deductibleOption
     }, {
-      'who': 'partner',
-      'type': 'credit',
+      'who': 'Partner',
+      'type': 'CREDIT',
       'amount': price - commission.value
     }, {
-      'who': 'insurance',
-      'type': 'credit',
+      'who': 'Insurance',
+      'type': 'CREDIT',
       'amount': commission.insurance
     }, {
-      'who': 'treasury',
-      'type': 'credit',
+      'who': 'Treasury',
+      'type': 'CREDIT',
       'amount': commission.treasury
     }, {
-      'who': 'virtuo',
-      'type': 'credit',
+      'who': 'Virtuo',
+      'type': 'CREDIT',
       'amount': commission.virtuo + deductibleOption
     }];
 

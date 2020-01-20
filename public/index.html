@@ -2,23 +2,108 @@
 <html>
   <head>
     <title>CSS/HTML Workshop with govirtuo.com</title>
+    <link rel='stylesheet' href='index.css'/> 
   </head>
   <body>
-    <div id="car">
-      <input class="js-name" type="text" placeholder="Car name"/>
-      <input class="js-price-by-day" type="number" placeholder="Price by day"/>
-      <input class="js-price-by-km" type="number" placeholder="Price by km"/>
-    </div>
-    <div id="rental">
-      <input class="js-name" type="text" placeholder="Driver name"/>
-      <input class="js-begin" type="date" placeholder="Rental begin date"/>
-      <input class="js-end" type="date" placeholder="Rental end date"/>
-      <input class="js-distance" type="number" placeholder="Distance in km"/>
-      <input class="js-option" type="checkbox" placeholder="Deductible option"/>
-    </div>
-    <button id="compute">Compute</button>
-    <div id="actors"></div>
+    <h3>Virtuo Rental Cash Distribution</h3>
+    <div class="container"><div class="card"  style="width:20rem;">
+      <div id="car" >
+      
+      <div class="textbox">
+      
+      <div class="boxtitle">
+      Car name
+      </div>
+      
+      <input class="js-name cell" type="text"/>
+      </div>
+      
+      <div class="textbox">
+      
+      <div class="boxtitle">
+      Price per day
+      </div>
+      
+      <input class="js-price-by-day cell" type="number"/>
+      </div>
+      
+      <div class="textbox">
+      
+      <div class="boxtitle">
+      Price per km
+      </div>
+      
+      <input class="js-price-by-km cell" type="number"/>
+      </div>
+      
+      </div>
+      
+      <div id="rental" >
+      
+      <div class="textbox">
+      
+      <div class="boxtitle">
+      Driver name
+      </div>
+      
+      <input class="js-name cell" type="text"/>
+      </div>
+      
+      <div class="textbox">
+      
+      <div class="boxtitle">
+      Pickup date
+      </div>
+      
+      <input class="js-begin cell" type="date"/>
+      </div>
+      
+      <div class="textbox">
+      
+      <div class="boxtitle">
+      Return date
+      </div>
+      
+      <input class="js-end cell" type="date" placeholder="Rental end date"/>
+      </div>
+      
+      <div class="textbox">
+      
+      <div class="boxtitle">
+      Distance in km
+      </div>
+      
+      <input class="js-distance cell" type="number"/>
+      </div>
+      
+      <div class="textbox">
+      
+      <div class="boxtitle">
+      Deductible option
+      </div>
+      
+      <input class="js-option cell" type="checkbox"/>
+      </div>
+      
+      </div>
+      
+      <div id="center">
+      <button id="compute">Compute</button>
+      </div>
+      
+      </div>
+
+      <div class="result">
+        <div class="resultitle">Results</div>
+        <div id="actors">
+  
+        </div>
+      </div>
+    
+    </div> 
+    
     <script src="virtuo.js"></script>
     <script src="index.js"></script>
+    
   </body>
 </html>

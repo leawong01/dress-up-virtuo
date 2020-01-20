@@ -1,0 +1,127 @@
+body{
+    font-family: TT Commons,HelveticaNeue-Light,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #7d7d82;
+    text-align: left;
+    background-color: #FEFEFE;
+}
+h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: #4D969C;
+}
+.container{
+    display:flex;
+    flex-wrap: nowrap;
+}
+.card{
+    margin-left: 13%;
+    border:solid 0.5px  #8e8e91;
+    border-radius: 10px;
+    padding: 1%;
+    min-width: 450px;
+}
+
+
+
+
+.textbox{
+        
+    padding:2%,4%;
+    
+}
+
+#car{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#rental{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.boxtitle{
+    padding-top: 6%;
+    padding-left: 10%;
+    /*border:solid 2px black;*/
+    min-width: 200px;
+}
+
+
+
+
+
+.cell{
+    border: solid 1px #EBEBEB;
+    outline-width: 0;
+    border-radius: 45px;
+    padding: 10px 20px;
+    margin-right: 25px;
+    font-size: 13px;
+    background-color: #FEFEFE;
+}
+
+#compute{
+    background-color: #4D969C;
+    border: none;
+    border-radius: 45px;
+    color:white;
+    font-size: 100%;
+    padding: 3% 40%;
+    
+}
+ #center{
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     padding-top: 15%;
+ }
+
+.js-option{
+    margin-left: 43%;
+}
+
+.result{
+    margin-left:10%;
+    border:solid 0.5px  #8e8e91;
+    border-radius: 10px;
+    padding: 1%;
+    min-width: 450px;
+}
+
+.resultitle{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 5%;
+    color:#4D969C;
+}
+
+#actors{
+    display: flex;
+    flex-direction: column;
+}
+
+.actor{
+    font-size: 25px;
+    margin-left: 5%;
+    padding-bottom: 5%;
+    
+}
+
+.actor-type{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.actor-who{
+    
+}
